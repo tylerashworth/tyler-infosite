@@ -9,17 +9,17 @@ const Footer: React.FC = () => {
   const socialLinks = [
     {
       icon: Linkedin,
-      href: '#',
+      href: 'https://www.linkedin.com/in/tylerashworth/',
       label: 'LinkedIn'
     },
     {
       icon: Instagram,
-      href: '#',
+      href: 'https://www.instagram.com/tallguy_tyler/',
       label: 'Instagram'
     },
     {
       icon: Mail,
-      href: 'mailto:tyler@example.com',
+      href: 'mailto:hello@tylerashworth.info',
       label: 'Email'
     }
   ];
@@ -54,7 +54,7 @@ const Footer: React.FC = () => {
           {/* Copyright */}
           <div className="text-center space-y-2">
             <p className="text-slate-400 text-sm">
-              © 2025 Tyler Ashworth. All rights reserved.
+              © {new Date().getFullYear()} Tyler Ashworth. All rights reserved.
             </p>
             <p className="text-slate-500 text-xs">
               Designed and built with passion for great user experiences
